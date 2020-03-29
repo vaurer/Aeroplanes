@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0bd1faf-8ce6-4bae-a3b3-1fddb73c98a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aeroplane/va/CC/Aeroplane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeroplane/va/CC/Aeroplane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroplane/va/CC/Airliner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeroplane/va/CC/Airliner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroplane/va/CC/CargoPlane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeroplane/va/CC/CargoPlane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroplane/va/CC/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeroplane/va/CC/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/va/CC/Aeroplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/Aeroplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/va/CC/Airliner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/Airliner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/va/CC/CargoPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/CargoPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/va/CC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/va/CC/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,29 +59,45 @@
       <option name="presentableId" value="Default" />
       <updated>1585500956762</updated>
     </task>
+    <task id="LOCAL-00001" summary="added flight">
+      <created>1585508264999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585508264999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added flight" />
+    <option name="LAST_COMMIT_MESSAGE" value="added flight" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser" timestamp="1585505503432">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1086" y="385" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1585505503432" />
-    <state width="2517" height="393" key="GridCell.Tab.0.bottom" timestamp="1585508241104">
+    <state x="937" y="295" key="CommitChangelistDialog2" timestamp="1585508263969">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585508241104" />
-    <state width="2517" height="393" key="GridCell.Tab.0.center" timestamp="1585508241104">
+    <state x="937" y="295" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1585508263969" />
+    <state width="2517" height="393" key="GridCell.Tab.0.bottom" timestamp="1585508326811">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585508241104" />
-    <state width="2517" height="393" key="GridCell.Tab.0.left" timestamp="1585508241104">
+    <state width="2517" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585508326811" />
+    <state width="2517" height="393" key="GridCell.Tab.0.center" timestamp="1585508326811">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585508241104" />
-    <state width="2517" height="393" key="GridCell.Tab.0.right" timestamp="1585508241104">
+    <state width="2517" height="393" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585508326811" />
+    <state width="2517" height="393" key="GridCell.Tab.0.left" timestamp="1585508326811">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="393" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585508241104" />
+    <state width="2517" height="393" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585508326811" />
+    <state width="2517" height="393" key="GridCell.Tab.0.right" timestamp="1585508326811">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="393" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585508326811" />
     <state width="2517" height="483" key="GridCell.Tab.1.bottom" timestamp="1585508177999">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -105,5 +114,20 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="483" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585508177999" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1585508267214">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1585508267214" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/va/CC/Aeroplane.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

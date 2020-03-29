@@ -61,7 +61,7 @@ public class Aeroplane {
         double remainingRange = this.fuel / this.fuelUsage;
         if (remainingRange >= mile) {
             this.fuel = this.fuel - (mile * this.fuelUsage);
-            System.out.println("You reached the destination. Fuel remain: " + this.fuel);
+            System.out.println("You reached the destination after " + mile + " miles. Fuel remain: " + this.fuel);
         } else System.out.println("Not enough fuel");
     }
 }
