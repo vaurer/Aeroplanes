@@ -4,8 +4,8 @@ public class Airliner extends Aeroplane {
     private int amountOfPassengers;
     private int maximumPassengers;
 
-    public Airliner(String identification, double maximumWeight, double emptyWeight, double fuelCapacity, int amountOfPassengers, int maximumPassengers) {
-        super(identification, maximumWeight, emptyWeight, fuelCapacity);
+    public Airliner(String identification, double maximumWeight, double emptyWeight, double fuelCapacity, double fuel, double fuelusage,  int amountOfPassengers, int maximumPassengers) {
+        super(identification, maximumWeight, emptyWeight, fuelCapacity, fuel, fuelusage);
         this.amountOfPassengers = amountOfPassengers;
         this.maximumPassengers = maximumPassengers;
     }

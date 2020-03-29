@@ -5,12 +5,24 @@ public class Aeroplane {
     private double maximumWeight;
     private double emptyWeight;
     private double fuelCapacity;
+    private double fuel;
+    double fuelUsage;
 
-    public Aeroplane(String identification, double maximumWeight, double emptyWeight, double fuelCapacity) {
+    public Aeroplane(String identification, double maximumWeight, double emptyWeight, double fuelCapacity, double fuel, double fuelUsage) {
         this.identification = identification;
         this.maximumWeight = maximumWeight;
         this.emptyWeight = emptyWeight;
         this.fuelCapacity = fuelCapacity;
+        this.fuel = fuel;
+        this.fuelUsage = fuelUsage;
+    }
+
+    public double getFuel() {
+        return fuel;
+    }
+
+    public void setFuel(double fuel) {
+        this.fuel = fuel;
     }
 
     public String getIdentification() {
@@ -43,5 +55,13 @@ public class Aeroplane {
 
     public void setFuelCapacity(double fuelCapacity) {
         this.fuelCapacity = fuelCapacity;
+    }
+
+    public void flight(double mile) {
+        double remainingRange = this.fuel / this.fuelUsage;
+        if (remainingRange >= mile) {
+            this.fuel = this.fuel - (mile * this.fuelUsage);
+            System.out.println("You reached the destination. Fuel remain: " + this.fuel);
+        } else System.out.println("Not enough fuel");
     }
 }

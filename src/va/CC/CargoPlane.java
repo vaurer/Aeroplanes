@@ -4,13 +4,13 @@ public class CargoPlane extends Aeroplane {
 
     private double cargoWeight;
 
-    public CargoPlane(String identification, double maximumWeight, double emptyWeight, double fuelCapacity, double cargoWeight) {
-        super(identification, maximumWeight, emptyWeight, fuelCapacity);
+    public CargoPlane(String identification, double maximumWeight, double emptyWeight, double fuelCapacity, double fuel,double fuelusage, double cargoWeight) {
+        super(identification, maximumWeight, emptyWeight, fuelCapacity, fuel, fuelusage);
         this.cargoWeight = cargoWeight;
     }
 
     public double getCargoWeight() {
-        return cargoWeight;
+        return Math.round(cargoWeight);
     }
 
     public void setCargoWeight(double cargoWeight) {
@@ -25,13 +25,13 @@ public class CargoPlane extends Aeroplane {
             System.out.println(this.getIdentification() + " is now loaded! with " + cargoWeight + " KG\n");
 
         } else
-            System.out.println("Not enough capacity on " + this.getIdentification() + " , you can load only KG: " + avaiableCargoWeight+"\n");
+            System.out.println("Not enough capacity on " + this.getIdentification() + " , you can load only KG: " + avaiableCargoWeight + "\n");
     }
 
     public void unloadCargo(double cargoToUnload) {
         if (cargoToUnload <= this.cargoWeight) {
             this.cargoWeight -= cargoToUnload;
-            System.out.println(this.getIdentification() + " is successfully unloaded. The cargo on the plane weight " + cargoWeight+"\n");
+            System.out.println(this.getIdentification() + " is successfully unloaded. The cargo on the plane weight " + this.getCargoWeight() + "\n");
         } else System.out.println(this.getIdentification() + " has not so much cargo on board\n");
 
     }
